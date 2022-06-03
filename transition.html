@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+ div
+{
+    width:100px;
+    height:150px;
+    background-color:red;
+    transition: width 4s;
+    transition-delay: 2s;
+    color:white;
+    text-align: center;
+    
+}
+div:hover
+{
+width:500px;
+}
+#div1{transition-timing-function: linear;}
+#div2{transition-timing-function: ease;}
+#div3{transition-timing-function: ease-in;}s
+#div4{transition-timing-function: ease-out;}
+#div5{transition-timing-function: ease-in-out;} 
+
+.triangle
+{
+    width:0px;
+    height:0px;
+    border-left:25px solid transparent;
+    border-right:25px solid transparent;
+    border-bottom:50px solid  blue;
+    margin-left: 300px;
+    
+}
+.parallelogram
+{
+    width:100px;
+    height:50px;
+    transform:skew(20deg);
+    background:#5555;
+    margin-left: 200px;
+}
+.trap
+{
+    width:200px;
+    height:0px;
+    border-left:25px solid transparent;
+    border-right:25px solid transparent;
+    border-bottom:50px solid  blue;
+    transition: width 4s;
+    margin-left: 200px;
+}
+trap:hover
+{
+    width:500px;
+}
+</style>
+<body>
+     <div id="1">linear</div>
+
+        <div id="3">ease-in</div>
+<div id="4" style="background: yellow;">ease-out</div>
+<div id="5">ease-in-out</div> 
+<div class="triangle"></div>
+<br>
+<br>
+<div class="parallelogram"></div><br>
+<div class="trap"></div>
+<p>neeraja is a good boy  make our <span style=" color:blue";>future</span> bright shape our future right</p>
+</body>
+
+
+</head>
+</html>
